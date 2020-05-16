@@ -1,5 +1,21 @@
-html
-  head
-    title= title
-  body
-    h1= message
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='description' content='Build your web application with NodeJS & Azure Cloud.')
+  meta(name='author' content='Aditya Padhi')
+  title #{title}
+  link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous')
+  link(href='https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet')
+  link(href='/css/main.css' rel='stylesheet')
+header.masthead
+  .container.h-100
+    .row.h-100
+      .col-lg-12.my-auto
+        .text-center
+          h1 Thanks to TCS and Microsoft for this amazing experience!
+          h1 #MSLearningHour
+          h1 #LearnInLockdown
+          h1.mb-5 #OneTCS
+          a.btn.btn-outline.btn-xl(href='https://azure.microsoft.com/') Start Now for Free!
