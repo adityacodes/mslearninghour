@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/a7cabede-74e6-403f-a732-450d5876aa40/resourceGroups/adityapadhi1996_rg_Windows_centralus/providers/Microsoft.Web/sites/learninghour",
+    "appService.deploySubpath": ""
+}
